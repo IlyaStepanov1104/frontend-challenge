@@ -5,13 +5,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CATinder</title>
 	<link rel="stylesheet" href="assets/css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
 	<nav>
 		<a href="index.html"><button class="btn"><p class="menu">Все котики</p></button></a>
 		<a href="#"><button class="btn active"><p class="menu active">Любимые котики</p></button></a>
 	</nav>
+
+	<div class="empty"></div>
+	<div class="liked_block" id="liked_block">
+		
+	</div>
+
+	<script type="text/javascript" src="assets/js/add_liked.js"></script>
+	<script type="text/javascript" src="assets/js/like.js"></script>
 </body>
 </html>

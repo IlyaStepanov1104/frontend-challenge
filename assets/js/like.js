@@ -9,11 +9,4 @@ function like(block){
 	console.log(document.cookie);
 }
 
-// DELETE ALL COOKIES
-var cookies = document.cookie.split(/;/);
-for (var i = 0, len = cookies.length; i < len; i++) {
-	var cookie = cookies[i].split(/=/);
-	document.cookie = cookie[0] + "=;max-age=-1";
-}
-
 document.addEventListener('click', e => like(e.target))
