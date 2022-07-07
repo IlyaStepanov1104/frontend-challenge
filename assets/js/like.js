@@ -3,7 +3,7 @@ function like(block){
 		document.cookie = block.id + "=liked;max-age=31556926";
 		block.className = 'liked'
 	} else if (block.classList.contains('liked')){
-		document.cookie = block.id + "liked;max-age=-1";
+		document.cookie = block.id + "=;max-age=-1";
 		block.className = 'heart'
 	}
 	console.log(document.cookie);
