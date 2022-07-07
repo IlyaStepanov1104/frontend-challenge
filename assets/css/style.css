@@ -100,6 +100,8 @@ div.loading{
 	margin-left: 75%;
 	margin-top: 75%;
 	border: 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .img:hover .heart{
@@ -112,7 +114,8 @@ div.loading{
 
 .heart:hover{
 	background: url("../picture/hover.svg");
-	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .liked{
@@ -123,6 +126,8 @@ div.loading{
 	margin-left: 75%;
 	margin-top: 75%;
 	border: 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .img:hover .liked{
@@ -140,20 +145,16 @@ div.loading{
 @media only screen and (max-width: 660px){
 	.img{
 		width: 90vw;
-	};
-}
-@media only screen and (max-width: 660px){
-	.img{
 		height: 90vw;
-	};
-}
-@media only screen and (max-width: 660px){
-	.img{
 		margin: 4.5vw 4.5vw 4.5vw 4.5vw;
 	};
-}
-@media only screen and (max-width: 660px){
 	div.app{
 		padding: 0;
+	};
+	.heart{
+		width: ;
+	};
+	.liked{
+		width: ;
 	};
 }
