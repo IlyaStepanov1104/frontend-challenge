@@ -94,6 +94,7 @@ div.loading{
 	height: 18%;
 	margin-left: 75%;
 	margin-top: 75%;
+	border: 0;
 }
 
 .img:hover .heart{
@@ -115,5 +116,5 @@ div.loading{
 	height: 18%;
 	margin-left: 75%;
 	margin-top: 75%;
-
+	border: 0;
 }
