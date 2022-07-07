@@ -1,3 +1,4 @@
+/* STYLE */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html, body{
 	width: 100vw;
@@ -11,7 +12,7 @@ a:link {text-decoration: none}
 a:visited {text-decoration: none} 
 a:active {text-decoration: none}
 a:hover {text-decoration: none} 
-
+/* MENU */
 nav{
 	position: absolute;
 	left: 0%;
@@ -55,6 +56,8 @@ p.active{
 div.empty{
 	height: 67px;
 }
+
+/* IMAGE CATS */
 div.app{
 	padding-left: 62px;
 	padding-right: 62px;
@@ -87,6 +90,8 @@ div.loading{
 	color: #000000;
 }
 
+
+/* HEARTS */
 .heart{
 	display: none;
 	background: url("../picture/empty.svg");
@@ -122,4 +127,33 @@ div.loading{
 
 .img:hover .liked{
 	display: block;
+}
+
+
+/* ADAPTATION */
+@media only screen and (max-width: 360px){
+	nav{
+		padding-left: 0;
+	};
+}
+
+@media only screen and (max-width: 660px){
+	.img{
+		width: 90vw;
+	};
+}
+@media only screen and (max-width: 660px){
+	.img{
+		height: 90vw;
+	};
+}
+@media only screen and (max-width: 660px){
+	.img{
+		margin: 4.5vw 4.5vw 4.5vw 4.5vw;
+	};
+}
+@media only screen and (max-width: 660px){
+	div.app{
+		padding: 0;
+	};
 }
