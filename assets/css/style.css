@@ -146,9 +146,13 @@ div.loading{
 	.img{
 		width: 90vw;
 		height: 90vw;
-		margin: 4.5vw 4.5vw 4.5vw 4.5vw;
+		margin: 10px 0px 10px 0px;
 	};
+}
+
+@media only screen and (max-width: 660px){
 	div.app{
-		padding: 0;
+		padding: 0 0 0 0;
+		justify-content: space-evenly;
 	};
 }
