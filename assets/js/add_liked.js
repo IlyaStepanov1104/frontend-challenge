@@ -1,3 +1,4 @@
+// document.cookie = "URL_1=liked;URL_2=liked;..."
 var cookie = document.cookie.split("=liked;");
 cookie[cookie.length - 1] = cookie[cookie.length - 1].substring(0, cookie[cookie.length - 1].length-6)
 for (var i = 0; i < cookie.length; i++) {
